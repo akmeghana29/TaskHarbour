@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskHarbour - Homepage</title>
+    <style>
+        @font-face {
+            font-family: 'FancyFont';
+            src: url('path-to-your-fancy-font.woff') format('woff'); /* Replace with the path to your fancy font file */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #100024, #3d0979);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 36px;
+            font-family: 'FancyFont', cursive; /* Apply the custom fancy font here */
+            color: #fff;
+            margin-bottom: 220px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: linear-gradient(135deg, #0099cc, #0066cc); /* Gradient background for the button */
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: linear-gradient(135deg, #0066cc, #0033cc); /* Gradient on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to TaskHarbour</h1>
+        <a class="btn" href="dashboard.html">View Dashboard</a>
+    </div>
+</body>
+</html>
